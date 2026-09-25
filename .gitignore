@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Relatorios e logs gerados a cada execucao
+reports/
+app_error.log
+
+# Dados de entrada (planilhas e CSV normalizado): contem dados do cliente
+*.xlsx
+cameras_normalized.csv
+
+# Empacotamento (PyInstaller)
+# O .spec e a configuracao do build e DEVE ser versionado (esta fora do ignore).
+build/
+dist/
+
+# Estado da ferramenta Command Code (config local / historico de comandos)
+.commandcode/
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
